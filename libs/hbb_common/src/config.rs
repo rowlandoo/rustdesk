@@ -46,7 +46,7 @@ pub const CONFIG_OPTION_ALLOW_LINUX_HEADLESS: &str = "allow-linux-headless";
 
 #[cfg(target_os = "macos")]
 lazy_static::lazy_static! {
-    pub static ref ORG: RwLock<String> = RwLock::new("com.carriez".to_owned());
+    pub static ref BostonRemote: RwLock<String> = RwLock::new("BostonRemote".to_owned());
 }
 
 type Size = (i32, i32, i32, i32);
